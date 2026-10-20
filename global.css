@@ -1,4 +1,34 @@
-.tipografia {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+    margin: 0;
 }
+
+.barrasuperior-fija {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px;
+}
+
+.contenedor {
+    margin-top: 90px;
+    max-width: 900px;
+    padding: 12px;
+}
+
+.stickseparador {
+    border-radius: 4px;
+    font-weight: bold;
+    position: sticky;
+    top: 60px;
+    
+}
+
 
