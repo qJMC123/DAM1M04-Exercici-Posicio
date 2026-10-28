@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  
   margin: 0;
   padding: 0;
 }
@@ -36,6 +36,10 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}
+
+.button:hover {
+  transform: (1.05%);
 }
 
 .hero {
