@@ -93,6 +93,14 @@ footer {
 .imagen {
   height: 150px;
   background-color: lightgray;
+  
+}
+
+
+.imagen img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
 }
 
 .contacto {
